@@ -27,3 +27,37 @@ Buzzer (voor geluidssignaal bij score)
 16x2 LCD-scherm (voor numerieke scoreweergave)
 
 Drukknop (om een nieuwe beurt te starten)
+
+## Druksensor
+
+
+
+![afbeelding](https://github.com/user-attachments/assets/288eb893-c3bd-464a-9df3-88abb5eb3c1f)
+
+<details>
+  <summary>Code druksensor</summary>
+    #include <Adafruit_LiquidCrystal.h>
+
+int seconds = 0;
+
+Adafruit_LiquidCrystal lcd_1(0);
+
+void setup()
+{
+  lcd_1.begin(16, 2);
+
+  lcd_1.print("hello world");
+}
+
+void loop()
+{
+  lcd_1.setCursor(0, 1);
+  lcd_1.print(seconds);
+  lcd_1.setBacklight(1);
+  delay(500); // Wait for 500 millisecond(s)
+  lcd_1.setBacklight(0);
+  delay(500); // Wait for 500 millisecond(s)
+  seconds += 1;
+}
+
+</details>
