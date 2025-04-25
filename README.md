@@ -59,5 +59,6 @@ Drukknop (om een nieuwe beurt te starten)
     delay(500); // Wait for 500 millisecond(s)
     seconds += 1;
   }
-</details> ```
+```
+</details>
 
