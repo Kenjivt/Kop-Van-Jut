@@ -29,31 +29,7 @@ Buzzer (voor geluidssignaal bij score)
 Drukknop (om een nieuwe beurt te starten)
 
 
-## Druksensor
 
-![afbeelding](https://github.com/user-attachments/assets/88449554-7132-42f6-a83f-fa206d342b31)
-
-<details>
-  <summary>Code Druksensor (Arduino)</summary>
-
-  ```cpp
-int sensor = 0;
-
-void setup()
-{
-  pinMode(A0, INPUT);
-  Serial.begin(115200);
-}
-
-void loop()
-{
-  sensor = analogRead(A0);
-  Serial.print("sensor = ");
-  Serial.println(sensor);
-  delay(100); // Wait for 100 millisecond(s)
-}
-```
-</details>
 
 
 ## LEDs
@@ -148,36 +124,5 @@ void loop()
 ```
 </details>
 
-## LCD-scherm
 
-![afbeelding](https://github.com/user-attachments/assets/288eb893-c3bd-464a-9df3-88abb5eb3c1f)
-
-<details>
-  <summary>Code LCD-scherm (Arduino)</summary>
-
-  ```cpp
-  #include <Adafruit_LiquidCrystal.h>
-
-  int seconds = 0;
-
-  Adafruit_LiquidCrystal lcd_1(0);
-
-  void setup()
-  {
-    lcd_1.begin(16, 2);
-    lcd_1.print("hello world");
-  }
-
-  void loop()
-  {
-    lcd_1.setCursor(0, 1);
-    lcd_1.print(seconds);
-    lcd_1.setBacklight(1);
-    delay(500); // Wait for 500 millisecond(s)
-    lcd_1.setBacklight(0);
-    delay(500); // Wait for 500 millisecond(s)
-    seconds += 1;
-  }
-```
-</details>
 
