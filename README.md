@@ -27,3 +27,5 @@ Buzzer (voor geluidssignaal bij score)
 16x2 LCD-scherm (voor numerieke scoreweergave)
 
 Drukknop (om een nieuwe beurt te starten)
+
+Weerstand 10kΩ
