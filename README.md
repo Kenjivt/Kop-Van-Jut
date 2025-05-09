@@ -4,7 +4,7 @@
 
 Voor onze opdracht binnen het vak Opkomende Technologieën ontwikkelen we een realistische versie van de klassieke kermisattractie “Kop van Jut”.
 Hierbij meten we de kracht van een slag met behulp van een druksensor, en geven we directe feedback via LED-verlichting en eventueel geluidseffecten. 
-Alles wordt aangestuurd door een Arduino.
+Alles wordt aangestuurd door een Arduino.Ook is er een klein LCD scherm waar we wat extra informatie aan de speler kunnen geven, zoals hun score en wanneer ze mogen slaan.
 
 ## Beschrijving van het project
 
