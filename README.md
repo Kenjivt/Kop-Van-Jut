@@ -12,6 +12,7 @@ De gebruiker slaat met een hamer op een stevige drukplaat.
 De kracht van deze slag wordt nauwkeurig gemeten via een druksensor (zoals een piezo-elektrische sensor of een FSR). 
 De Arduino verwerkt deze data en toont de score via een reeks oplichtende LEDs, vergelijkbaar met de echte “Kop van Jut”-machines op de kermis.
 
+
 ## Onderdelen
 
 Arduino Uno
@@ -28,4 +29,9 @@ Buzzer (voor geluidssignaal bij score)
 
 Drukknop (om een nieuwe beurt te starten)
 
-Weerstand 10kΩ
+8 weerstanden van 10kΩ 
+
+<div style="display: flex; justify-content: center; gap: 10px; align-items: center; margin: 20px 0; width: 100%;">
+  <img src=  https://github.com/user-attachments/assets/86d3d644-01eb-4b3e-832a-396a2e44f8d3 alt="Afbeelding 1" width="300">
+  <img src= https://github.com/user-attachments/assets/d26789a8-6f94-42da-a959-156f2a5ae82e alt="afbeelding2" width="500">
+</div>
