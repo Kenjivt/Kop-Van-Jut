@@ -35,3 +35,7 @@ Drukknop (om een nieuwe beurt te starten)
   <img src=  https://github.com/user-attachments/assets/86d3d644-01eb-4b3e-832a-396a2e44f8d3 alt="Afbeelding 1" width="300">
   <img src= https://github.com/user-attachments/assets/d26789a8-6f94-42da-a959-156f2a5ae82e alt="afbeelding2" width="500">
 </div>
+
+<div style="display: flex; justify-content: center; gap: 10px; align-items: center; margin: 20px 0; width: 100%;">
+  <img src= https://github.com/user-attachments/assets/14227f78-c4ad-41ff-9dc7-105f34719532 alt="Afbeelding 3" width="300">
+</div>
